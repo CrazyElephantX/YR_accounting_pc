@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a4a9ad08-d007-4b25-96a2-801de4834a87">
+  <name>Настройки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.ЯМ_ГруппыБалансировки</content>
+  <content>Catalog.ЯМ_Теги</content>
+  <content>Catalog.ЯМ_НастройкиШтрафовДляАлгоритмов</content>
+  <content>Catalog.ЯМ_Настройки</content>
+  <parentSubsystem>Subsystem.ЯндексМаршрутизация</parentSubsystem>
+</mdclass:Subsystem>

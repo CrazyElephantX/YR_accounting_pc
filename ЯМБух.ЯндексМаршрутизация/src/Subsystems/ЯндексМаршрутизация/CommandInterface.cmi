@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>DataProcessor.Yandex.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
+  </commandsVisibility>
+  <subsystemsOrder>
+    <subsystems>Subsystem.ЯндексМаршрутизация.Subsystem.Справочники</subsystems>
+    <subsystems>Subsystem.ЯндексМаршрутизация.Subsystem.Настройки</subsystems>
+    <subsystems>Subsystem.ЯндексМаршрутизация.Subsystem.Сервис</subsystems>
+    <subsystems>8f7649b8-9421-40f5-9829-4d21e2436c80</subsystems>
+    <subsystems>65650b87-9370-411b-af3b-0bc197070b9a</subsystems>
+  </subsystemsOrder>
+</cmi:CommandInterface>

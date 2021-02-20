@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="58ddf548-cfd7-4a84-a108-aba72e2c9b97">
+  <name>Справочники</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справочники</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.ЯМ_ТранспортныеСредства</content>
+  <content>Catalog.ЯМ_СкладыОтгрузки</content>
+  <parentSubsystem>Subsystem.ЯндексМаршрутизация</parentSubsystem>
+</mdclass:Subsystem>

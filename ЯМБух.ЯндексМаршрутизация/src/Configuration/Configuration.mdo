@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="8b197f64-bd31-4003-9d69-a82fbc99a7ca">
+  <name>ЯндексМаршрутизация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Яндекс маршрутизация</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+    <usePurposes>Checked</usePurposes>
+    <defaultLanguage>Checked</defaultLanguage>
+    <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="ff611819-79a5-4458-a47f-d3436898ccc1"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="6a6a37af-bc8c-4250-b53d-996ce03ba48f"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="c89c67af-45ca-4310-aa34-379f08db217f"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="198f63ca-f3a1-4cca-84fe-bc209d41d439"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="0e4cf91e-8308-4c22-817c-d3644e642905"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="b5555edb-d6ae-4dc8-83cf-eff5a5ca7548"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="be723739-8667-4073-ba9a-c90d58a5741b"/>
+  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
+  <namePrefix>ЯМ_</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.14</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>Customization</configurationExtensionPurpose>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <vendor>Профи Центр ООО</vendor>
+  <version>1.1.4.8</version>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
+  <compatibilityMode>8.3.18</compatibilityMode>
+  <languages uuid="244c95ce-bba3-4ec4-9b30-b7a44bf1c5ee">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.ЯндексМаршрутизация</subsystems>
+  <styleItems>StyleItem.БыстрыеОтборыФонГруппы</styleItems>
+  <styleItems>StyleItem.НадписьПоясняющаяГиперссылку</styleItems>
+  <styleItems>StyleItem.ЦветФонаБлоковИнформационнойПанели</styleItems>
+  <styleItems>StyleItem.ПоясняющийТекст</styleItems>
+  <styleItems>StyleItem.ЦветВыделенияКонтрагентаСОшибкой</styleItems>
+  <styleItems>StyleItem.ЦветФонаНекорректногоКонтрагентаВДокументе</styleItems>
+  <styleItems>StyleItem.ИтогиФонГруппы</styleItems>
+  <styleItems>StyleItem.СодержаниеУслугиШрифт</styleItems>
+  <styleItems>StyleItem.ФонУправляющегоПоля</styleItems>
+  <styleItems>StyleItem.ДосьеГиперссылкаЦвет</styleItems>
+  <styleItems>StyleItem.РамкаСеткиТаблицы</styleItems>
+  <commonPictures>CommonPicture.ЯМ_Лого</commonPictures>
+  <commonPictures>CommonPicture.СостоянияДокумента</commonPictures>
+  <commonPictures>CommonPicture.НекорректныйКонтрагент</commonPictures>
+  <commonPictures>CommonPicture.ЗаполнитьФорму</commonPictures>
+  <commonPictures>CommonPicture.Отчеты</commonPictures>
+  <roles>Role.Расш1_ОсновнаяРоль</roles>
+  <commonModules>CommonModule.ЯМ_ГеокодированиеКлиент</commonModules>
+  <commonModules>CommonModule.ЯМ_МониторингКлиент</commonModules>
+  <commonModules>CommonModule.ЯМ_МаршрутизацияСервер</commonModules>
+  <commonModules>CommonModule.ЯМ_МониторингСервер</commonModules>
+  <commonModules>CommonModule.ЯМ_РаботаСНастройками</commonModules>
+  <commonModules>CommonModule.ЯМ_СлужебныйКлиент</commonModules>
+  <commonModules>CommonModule.ЯМ_СлужебныйСервер</commonModules>
+  <commonModules>CommonModule.ЯМ_ГеокодированиеСервер</commonModules>
+  <commonModules>CommonModule.РеализацияТоваровУслугФормыКлиент</commonModules>
+  <commonForms>CommonForm.ЯМ_РезультатыПланирования</commonForms>
+  <catalogs>Catalog.Склады</catalogs>
+  <catalogs>Catalog.ЯМ_ГруппыБалансировки</catalogs>
+  <catalogs>Catalog.ЯМ_Настройки</catalogs>
+  <catalogs>Catalog.ЯМ_НастройкиШтрафовДляАлгоритмов</catalogs>
+  <catalogs>Catalog.ЯМ_СкладыОтгрузки</catalogs>
+  <catalogs>Catalog.ЯМ_Теги</catalogs>
+  <catalogs>Catalog.ЯМ_ТранспортныеСредства</catalogs>
+  <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.СтраныМира</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <documents>Document.РеализацияТоваровУслуг</documents>
+  <documents>Document.ЯМ_ЗаявкаНаДоставку</documents>
+  <documents>Document.СчетНаОплатуПокупателю</documents>
+  <enums>Enum.ЯМ_СтатусыЗапросов</enums>
+  <enums>Enum.ЯМ_СпособПеремещения</enums>
+  <enums>Enum.ЯМ_ВидыШтрафов</enums>
+  <enums>Enum.ЯМ_ШтрафНеЗаполнен</enums>
+  <enums>Enum.УдалитьЮрФизЛицо</enums>
+  <enums>Enum.ВидыГосударственныхОрганов</enums>
+  <enums>Enum.ВидыДоговоровКонтрагентов</enums>
+  <reports>Report.ЯМ_Маршруты</reports>
+  <dataProcessors>DataProcessor.Yandex</dataProcessors>
+  <informationRegisters>InformationRegister.ЯМ_ЗапросыНаМаршрутизацию</informationRegisters>
+  <informationRegisters>InformationRegister.ЯМ_СохраненныеКоординаты</informationRegisters>
+</mdclass:Configuration>

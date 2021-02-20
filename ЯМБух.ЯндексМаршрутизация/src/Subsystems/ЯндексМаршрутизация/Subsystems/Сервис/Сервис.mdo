@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c631e43d-bc17-450d-81aa-dbf523b411c1">
+  <name>Сервис</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сервис</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>InformationRegister.ЯМ_ЗапросыНаМаршрутизацию</content>
+  <content>Document.ЯМ_ЗаявкаНаДоставку</content>
+  <content>InformationRegister.ЯМ_СохраненныеКоординаты</content>
+  <parentSubsystem>Subsystem.ЯндексМаршрутизация</parentSubsystem>
+</mdclass:Subsystem>

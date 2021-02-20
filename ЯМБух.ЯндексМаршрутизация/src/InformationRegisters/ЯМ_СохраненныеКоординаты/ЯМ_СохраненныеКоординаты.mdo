@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e36a12ab-ebc8-4625-a615-a486f991a362">
+  <producedTypes>
+    <selectionType typeId="df23c0a1-388b-4a22-9269-ce03b600cc8e" valueTypeId="7d25d7e4-4c69-412a-acc0-1fdb97afa481"/>
+    <listType typeId="40b84094-7530-4d3c-951e-5878d32a60c7" valueTypeId="970727e3-2f9e-42fc-858e-dbcf374b1a94"/>
+    <managerType typeId="cb8f665f-2716-41d7-be39-b88ad7425800" valueTypeId="14009041-28f6-4693-9c70-43f30aff22ad"/>
+    <recordSetType typeId="1e3df5c5-21da-4ac5-a42d-b5a16e10715e" valueTypeId="cf5ac87b-13f4-4423-945e-15c1cd567bf9"/>
+    <recordKeyType typeId="7c467fbf-813f-4296-9c09-816b40cb8c5a" valueTypeId="c7c529a1-ff71-46bd-b149-25830362cada"/>
+    <recordType typeId="507dc82c-80b5-4452-95a0-26275e5b68b0" valueTypeId="f06d7762-7a25-47e0-a388-625e19e0bc8c"/>
+    <recordManagerType typeId="a6458a58-c6ed-4ec8-a75e-d5153656b26f" valueTypeId="ec78c5df-222a-41b8-998c-c818172be91b"/>
+  </producedTypes>
+  <name>ЯМ_СохраненныеКоординаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Cохраненные координаты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="38f87ba2-371f-4db1-8776-133967dcb91c">
+    <name>Широта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Широта</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>6</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="efad4204-3634-4c20-9ba6-40b6fb5ae046">
+    <name>Долгота</name>
+    <synonym>
+      <key>ru</key>
+      <value>Долгота</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>6</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="e75efc5a-272c-47d0-b9ef-79d226f50fa0">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="50c18171-d531-4f87-945e-85bd078b382a">
+    <name>Адрес</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

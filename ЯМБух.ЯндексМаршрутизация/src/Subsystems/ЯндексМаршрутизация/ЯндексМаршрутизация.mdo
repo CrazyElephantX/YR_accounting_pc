@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2c554de3-6205-498b-a88b-589a41ae035b">
+  <name>ЯндексМаршрутизация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Маршрутизация</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ЯМ_Лого</picture>
+  </picture>
+  <content>DataProcessor.Yandex</content>
+  <content>39738700-3c1d-44d4-91e5-ef1218c0c0ba</content>
+  <subsystems>Справочники</subsystems>
+  <subsystems>Настройки</subsystems>
+  <subsystems>Сервис</subsystems>
+</mdclass:Subsystem>

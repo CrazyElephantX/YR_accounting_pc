@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1afee3e1-00c2-485a-98be-d106d28ab444">
+  <name>ЯМ_РезультатыПланирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Результаты планирования Яндекс.Маршрутизатор</value>
+  </synonym>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0e5a46dd-8957-4952-9a65-013ef354d9cc">
+  <producedTypes>
+    <refType typeId="40d4a2bd-13fb-4d2a-8771-8c1cd275d496" valueTypeId="1f3ace7e-e85b-4e1d-a624-d4a92c772b67"/>
+    <listType typeId="4d3b9643-d339-4817-8f9f-65722f96e87f" valueTypeId="88b01e05-ba53-4135-a9a1-21a493697a0c"/>
+    <managerType typeId="8b5d94af-8f05-41c2-aa5c-fcf182a9588d" valueTypeId="6c9dfc1e-df03-4265-a910-0dab69227b7d"/>
+  </producedTypes>
+  <name>ЯМ_ВидыШтрафов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды штрафов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="802813f2-cebd-4885-ad54-47fafe0c29b5">
+    <name>out_of_time_fixed</name>
+    <synonym>
+      <key>ru</key>
+      <value>За факт нарушения временного окна</value>
+    </synonym>
+    <comment>Для временных окон склада, смены машины, заказа</comment>
+  </enumValues>
+  <enumValues uuid="b22c0a69-1c6f-4667-8bb6-6f92f8763c06">
+    <name>out_of_time_minute</name>
+    <synonym>
+      <key>ru</key>
+      <value>За минуту нарушения временного окна</value>
+    </synonym>
+    <comment>Для временных окон склада, смены машины, заказа</comment>
+  </enumValues>
+  <enumValues uuid="7d72c4fc-ecd4-4f74-ad73-99e995c0f46d">
+    <name>penalty_early_fixed</name>
+    <synonym>
+      <key>ru</key>
+      <value>За факт раннего приезда </value>
+    </synonym>
+    <comment>Для временных окон склада, смены машины, заказа</comment>
+  </enumValues>
+  <enumValues uuid="9e330810-d627-4757-9202-5e68272e44df">
+    <name>penalty_early_minute</name>
+    <synonym>
+      <key>ru</key>
+      <value>За минуту раннего приезда </value>
+    </synonym>
+    <comment>Для временных окон склада, смены машины, заказа</comment>
+  </enumValues>
+  <enumValues uuid="e88650bd-40ce-4753-8396-e80c522af6bb">
+    <name>penalty_late_fixed</name>
+    <synonym>
+      <key>ru</key>
+      <value>За факт опоздания</value>
+    </synonym>
+    <comment>Для временных окон склада, смены машины, заказа</comment>
+  </enumValues>
+  <enumValues uuid="352e56c4-af1b-4e31-85b1-27001f95cdae">
+    <name>penalty_late_minute</name>
+    <synonym>
+      <key>ru</key>
+      <value>За минуту опоздания </value>
+    </synonym>
+    <comment>Для временных окон склада, смены машины, заказа</comment>
+  </enumValues>
+  <enumValues uuid="8dd225ae-7c16-4fd4-9f5c-b09190d39df8">
+    <name>penalty_drop</name>
+    <synonym>
+      <key>ru</key>
+      <value>Штраф за недоставку  </value>
+    </synonym>
+    <comment>Для заказа</comment>
+  </enumValues>
+  <enumValues uuid="33f7b0ca-2b0f-4404-9917-b904170c8d50">
+    <name>stop_excess_fixed</name>
+    <synonym>
+      <key>ru</key>
+      <value>За факт превышения макс кол-ва остановок </value>
+    </synonym>
+    <comment>Для смены машины</comment>
+  </enumValues>
+  <enumValues uuid="30cb7029-801b-4315-a6ab-169638146e2e">
+    <name>stop_excess_per_stop</name>
+    <synonym>
+      <key>ru</key>
+      <value>За каждую остановку сверх макс кол-ва </value>
+    </synonym>
+    <comment>Для смены машины</comment>
+  </enumValues>
+  <enumValues uuid="2b6853bd-f508-427c-9f7b-64c35e7fa274">
+    <name>stop_lack_fixed</name>
+    <synonym>
+      <key>ru</key>
+      <value>За факт не достижения мин кол-ва остановок </value>
+    </synonym>
+    <comment>Для смены машины</comment>
+  </enumValues>
+  <enumValues uuid="d651ab25-5ffe-4535-a6f5-d7430a2d718f">
+    <name>stop_lack_per_stop</name>
+    <synonym>
+      <key>ru</key>
+      <value>За каждую остановку меньше мин кол-ва </value>
+    </synonym>
+    <comment>Для смены машины</comment>
+  </enumValues>
+  <enumValues uuid="f69c27b4-ca3a-4421-8440-90106f6c89fa">
+    <name>max_mileage_fixed</name>
+    <synonym>
+      <key>ru</key>
+      <value>За факт превышения макс пробега </value>
+    </synonym>
+    <comment>Для смены машины</comment>
+  </enumValues>
+  <enumValues uuid="ec918c80-9a2a-4a29-8534-db34aec075af">
+    <name>max_mileage_km</name>
+    <synonym>
+      <key>ru</key>
+      <value>За каждый км превышения макс пробега </value>
+    </synonym>
+    <comment>Для смены машины</comment>
+  </enumValues>
+</mdclass:Enum>

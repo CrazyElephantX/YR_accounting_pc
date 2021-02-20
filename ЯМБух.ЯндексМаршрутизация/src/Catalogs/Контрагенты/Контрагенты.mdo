@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="2fb643a4-ed54-47db-bd25-650fc9b60dd9" extendedConfigurationObject="51b9a2d4-bd53-4f40-824e-e3b4e323279e">
+  <producedTypes>
+    <objectType typeId="68aab4b8-98d3-4f5f-acdc-3d928f6dd270" valueTypeId="8e0ad8d0-5613-4a3c-a92e-c94301573034"/>
+    <refType typeId="ae77e4a0-8164-4048-aee2-50281b7b1e47" valueTypeId="3b87ba42-8b20-4aaf-a4b1-ac81bb0a5f8a"/>
+    <selectionType typeId="da03051f-6cd0-4362-a52b-4a54f9bb1119" valueTypeId="198e5e74-295b-4e48-8413-dd96db437fa4"/>
+    <listType typeId="71aff918-f7b0-43d3-b486-f1fb1cbd244b" valueTypeId="5ef475f4-f19a-4917-8699-439613d1f1a0"/>
+    <managerType typeId="1c8fb1f7-4472-45c3-82a9-2ece4e065348" valueTypeId="e85f08ed-9630-476a-bea6-113b034172a5"/>
+  </producedTypes>
+  <name>Контрагенты</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <hierarchical>Checked</hierarchical>
+    <codeLength>Checked</codeLength>
+    <descriptionLength>Checked</descriptionLength>
+    <codeType>Checked</codeType>
+    <codeAllowedLength>Checked</codeAllowedLength>
+  </extension>
+  <hierarchical>true</hierarchical>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <attributes uuid="045d582f-a71d-40b2-b2b1-ebaddce8fa67">
+    <name>ЯМ_РежимРаботы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Режим работы</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>11</length>
+      </stringQualifiers>
+    </type>
+    <mask>99:99-99:99</mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="a1ac9ec2-f2dc-4192-832c-1669d329edfe" extendedConfigurationObject="41083788-dfa5-4e2f-92d2-cac6bf94997c">
+    <name>ФормаЭлемента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Catalog>

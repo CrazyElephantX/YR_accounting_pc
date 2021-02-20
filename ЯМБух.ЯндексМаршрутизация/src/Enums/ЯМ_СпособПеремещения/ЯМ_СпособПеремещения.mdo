@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9de9196c-70ab-42c5-91ec-725806df16c7">
+  <producedTypes>
+    <refType typeId="c0759234-b03d-4157-b145-1ba0a09958e4" valueTypeId="aca239b4-a3c8-462a-895e-4d6b9248d88c"/>
+    <listType typeId="a78c8f22-a8e2-48f6-9b1a-5426c3d95357" valueTypeId="c8e19cca-a4a8-49cd-9f6f-f6ebb77b4105"/>
+    <managerType typeId="4fbc998d-0216-49f8-86b0-7750c351bdc8" valueTypeId="d377b757-9ef1-4fca-b755-d4173c1d39bf"/>
+  </producedTypes>
+  <name>ЯМ_СпособПеремещения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способ перемещения</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="1830be72-6b6d-410a-9c79-f354ac27b141">
+    <name>driving</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автомобиль</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d1fd82bd-2be3-4d80-93bb-1d2254310e28">
+    <name>truck</name>
+    <synonym>
+      <key>ru</key>
+      <value>Грузовой автомобиль</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="70b6779c-3fc1-40de-8ca9-9cbe4c736603">
+    <name>walking</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пешеход</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1a3cd4c3-57f6-4279-963f-f1707cf7f6e7">
+    <name>transit</name>
+    <synonym>
+      <key>ru</key>
+      <value>Общественный транспорт</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

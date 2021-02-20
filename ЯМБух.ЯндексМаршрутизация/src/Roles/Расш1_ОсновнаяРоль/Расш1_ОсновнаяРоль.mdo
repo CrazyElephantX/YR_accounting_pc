@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b52d2898-58a8-4ca7-845f-81885ee8ca4b">
+  <name>Расш1_ОсновнаяРоль</name>
+  <synonym>
+    <key>ru</key>
+    <value>Яндекс.Маршрутизация</value>
+  </synonym>
+</mdclass:Role>

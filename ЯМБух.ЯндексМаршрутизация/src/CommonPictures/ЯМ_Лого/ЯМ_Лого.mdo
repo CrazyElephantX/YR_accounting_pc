@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8028d48a-ffe6-464e-9bd6-bbf9e14357d9">
+  <name>ЯМ_Лого</name>
+  <synonym>
+    <key>ru</key>
+    <value>Лого</value>
+  </synonym>
+</mdclass:CommonPicture>

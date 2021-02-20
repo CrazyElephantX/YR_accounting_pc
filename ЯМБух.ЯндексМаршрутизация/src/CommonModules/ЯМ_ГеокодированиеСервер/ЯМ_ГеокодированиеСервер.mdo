@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f3d6ac38-34fc-48d3-883b-7afd43c85c98">
+  <name>ЯМ_ГеокодированиеСервер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Геокодирование сервер</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

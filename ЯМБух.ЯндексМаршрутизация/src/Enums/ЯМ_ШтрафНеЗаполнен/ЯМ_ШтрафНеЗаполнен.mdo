@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="43b1ae80-d2a2-4f75-8d4c-b76407793644">
+  <producedTypes>
+    <refType typeId="68da2937-6b76-46d0-9181-60b2561685a0" valueTypeId="1f6bba0c-8855-450f-b543-222a02327845"/>
+    <listType typeId="2ce7c697-f4a1-4e97-a5c7-a0f39ce929ae" valueTypeId="32fac86d-5604-40e7-92fd-659289c63fe8"/>
+    <managerType typeId="bcc60224-75b4-48a5-9f54-5f5c8e824307" valueTypeId="c4912c28-b038-46ae-afcf-05d25cb99dd0"/>
+  </producedTypes>
+  <name>ЯМ_ШтрафНеЗаполнен</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сумма штрафа не заполнена</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="9060f65d-bb8a-4366-8a3c-ec7c57f6d8f8">
+    <name>Пусто</name>
+    <synonym>
+      <key>ru</key>
+      <value>---</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

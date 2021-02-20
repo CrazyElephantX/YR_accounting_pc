@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="91911fbc-564c-4648-b3cb-8461bd7c4809" extendedConfigurationObject="549a87b5-e060-4516-b0bb-d125bd276387">
+  <producedTypes>
+    <refType typeId="191dfe88-e037-400b-aeaa-892f8a382a26" valueTypeId="8a6c2b3b-66fd-477e-bf2b-fe0b60f20601"/>
+    <listType typeId="b69e9253-e8d7-4db3-8e73-3ca2fa51ef45" valueTypeId="802e7c38-9a8b-4b75-b222-ca287cfa46e5"/>
+    <managerType typeId="8a1683c5-eb0c-4ce0-8f66-887bc5517476" valueTypeId="b0246ba9-cb0a-4069-95b1-6d55d3334fbb"/>
+  </producedTypes>
+  <name>УдалитьЮрФизЛицо</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+</mdclass:Enum>
