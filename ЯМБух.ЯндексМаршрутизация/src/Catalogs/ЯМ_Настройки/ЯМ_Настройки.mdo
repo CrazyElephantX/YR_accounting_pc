@@ -189,4 +189,12 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <templates uuid="c6525b36-d521-4ba3-a0c2-3fd67517c460">
+    <name>НастройкиПоУмолчанию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки по умолчанию</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
 </mdclass:Catalog>

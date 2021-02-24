@@ -28,7 +28,8 @@
 				СтруктураКоординаты.Долгота = МассивКоординат[0];
 				СтруктураКоординаты.Широта = МассивКоординат[1];
 				ТочностьГеокодирования = 3;
-				Если НайденныйОбъект.GeoObject.metaDataProperty.GeocoderMetaData.precision = "near" ИЛИ НайденныйОбъект.GeoObject.metaDataProperty.GeocoderMetaData.precision = "street" Тогда 
+				Если НайденныйОбъект.GeoObject.metaDataProperty.GeocoderMetaData.precision = "near" ИЛИ 
+				НайденныйОбъект.GeoObject.metaDataProperty.GeocoderMetaData.precision = "street" Тогда 
 					ТочностьГеокодирования = 2;
 				ИначеЕсли НайденныйОбъект.GeoObject.metaDataProperty.GeocoderMetaData.precision = "other" Тогда 
 					ТочностьГеокодирования = 1;
