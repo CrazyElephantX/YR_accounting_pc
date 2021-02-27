@@ -16,6 +16,7 @@
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ЯМ_СохраненныеКоординаты.Form.ФормаЗаписи</defaultRecordForm>
   <dataLockControlMode>Managed</dataLockControlMode>
   <resources uuid="38f87ba2-371f-4db1-8776-133967dcb91c">
     <name>Широта</name>
@@ -92,4 +93,13 @@
     </fillValue>
     <mainFilter>true</mainFilter>
   </dimensions>
+  <forms uuid="0dd1b4be-f057-4762-b41c-eb1a67394851">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:InformationRegister>

@@ -27,7 +27,7 @@
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>Профи Центр ООО</vendor>
-  <version>1.1.4.10</version>
+  <version>1.1.5.0</version>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
   <compatibilityMode>8.3.18</compatibilityMode>
@@ -56,6 +56,7 @@
   <commonPictures>CommonPicture.НекорректныйКонтрагент</commonPictures>
   <commonPictures>CommonPicture.ЗаполнитьФорму</commonPictures>
   <commonPictures>CommonPicture.Отчеты</commonPictures>
+  <commonPictures>CommonPicture.ЯМ_Ожидание</commonPictures>
   <roles>Role.Расш1_ОсновнаяРоль</roles>
   <commonModules>CommonModule.ЯМ_ГеокодированиеКлиент</commonModules>
   <commonModules>CommonModule.ЯМ_МониторингКлиент</commonModules>
@@ -66,6 +67,7 @@
   <commonModules>CommonModule.ЯМ_СлужебныйСервер</commonModules>
   <commonModules>CommonModule.ЯМ_ГеокодированиеСервер</commonModules>
   <commonForms>CommonForm.ЯМ_РезультатыПланирования</commonForms>
+  <commonForms>CommonForm.ЯМ_Ожидание</commonForms>
   <catalogs>Catalog.Склады</catalogs>
   <catalogs>Catalog.ЯМ_ГруппыБалансировки</catalogs>
   <catalogs>Catalog.ЯМ_Настройки</catalogs>
@@ -89,6 +91,7 @@
   <enums>Enum.ВидыДоговоровКонтрагентов</enums>
   <reports>Report.ЯМ_Маршруты</reports>
   <dataProcessors>DataProcessor.Yandex</dataProcessors>
+  <dataProcessors>DataProcessor.Yandex_АвтоматическиеОбработкиv2</dataProcessors>
   <informationRegisters>InformationRegister.ЯМ_ЗапросыНаМаршрутизацию</informationRegisters>
   <informationRegisters>InformationRegister.ЯМ_СохраненныеКоординаты</informationRegisters>
 </mdclass:Configuration>
