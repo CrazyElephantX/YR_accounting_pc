@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1337a8a8-1c9f-4445-a913-58e4cc514ad6">
+  <producedTypes>
+    <objectType typeId="636f1fc6-60b7-4ce1-be5c-243affdbb225" valueTypeId="87f9e01c-fae3-4b12-8903-5d27263bbfbf"/>
+    <managerType typeId="1590373e-cea5-4004-a6be-8a1b85e3c28e" valueTypeId="8948daea-361d-487b-8da6-df4b2ae36a46"/>
+  </producedTypes>
+  <name>ЯМ_КачествоДоставки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Качество доставки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:Report>

@@ -2457,8 +2457,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>ТранспортныеСредства.ТранспортноеСредство</segments>
+          <dataPath xsi:type="form:MultiLanguageDataPath">
+            <paths xsi:type="form:DataPath">
+              <segments>ТранспортныеСредства.ТранспортноеСредство</segments>
+            </paths>
           </dataPath>
           <extendedTooltip>
             <name>ТранспортныеСредстваТранспортноеСредствоРасширеннаяПодсказка</name>

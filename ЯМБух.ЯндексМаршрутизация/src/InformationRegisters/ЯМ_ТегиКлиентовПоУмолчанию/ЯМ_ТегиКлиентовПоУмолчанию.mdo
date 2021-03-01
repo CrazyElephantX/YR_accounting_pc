@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f5047d35-095b-4526-949a-993de291024a">
+  <producedTypes>
+    <selectionType typeId="a065cb4c-117e-4162-87e0-88a8a074a66f" valueTypeId="6f72f41b-e01c-4834-a207-ac1895957cf0"/>
+    <listType typeId="3a669143-fcce-435f-8886-d9e3cd152129" valueTypeId="1cc98f7d-1d17-4962-af81-5d7817e3d41d"/>
+    <managerType typeId="668ab021-250c-4467-8518-01c5011d58b4" valueTypeId="ae260e6a-7340-4adf-83e7-a50d6cbaea56"/>
+    <recordSetType typeId="5082b38c-8887-4f25-b5a8-02043a1ed831" valueTypeId="5b6aa63d-f2bf-4649-965b-5da248b1866c"/>
+    <recordKeyType typeId="4ad77eee-39d7-4e8c-8011-cc006746af96" valueTypeId="45c56147-3c83-40b5-b54f-89152bd42361"/>
+    <recordType typeId="aba0dd7a-8413-4984-8c6a-960f2e4770f5" valueTypeId="385e8b43-d73f-4b37-bff8-a8e9117d08e8"/>
+    <recordManagerType typeId="8857f3cd-c81c-4942-a4e6-6ca81757dd74" valueTypeId="95f71b97-e9b6-425b-9f2d-bfdfc99a593b"/>
+  </producedTypes>
+  <name>ЯМ_ТегиКлиентовПоУмолчанию</name>
+  <synonym>
+    <key>ru</key>
+    <value>Теги клиентов по умолчанию</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="3cae00e5-ee6d-42ca-8e0e-a452223ff3b6">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="96792fcf-cd59-45f4-9ee1-bde66af6996a">
+    <name>Тег</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тег</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЯМ_Теги</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

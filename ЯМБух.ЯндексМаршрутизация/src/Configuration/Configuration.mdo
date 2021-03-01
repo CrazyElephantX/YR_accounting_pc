@@ -27,7 +27,7 @@
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>Профи Центр ООО</vendor>
-  <version>1.1.5.1</version>
+  <version>1.1.5.3</version>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
   <compatibilityMode>8.3.18</compatibilityMode>
@@ -90,8 +90,10 @@
   <enums>Enum.ВидыГосударственныхОрганов</enums>
   <enums>Enum.ВидыДоговоровКонтрагентов</enums>
   <reports>Report.ЯМ_Маршруты</reports>
+  <reports>Report.ЯМ_КачествоДоставки</reports>
   <dataProcessors>DataProcessor.Yandex</dataProcessors>
   <dataProcessors>DataProcessor.Yandex_АвтоматическиеОбработкиv2</dataProcessors>
   <informationRegisters>InformationRegister.ЯМ_ЗапросыНаМаршрутизацию</informationRegisters>
   <informationRegisters>InformationRegister.ЯМ_СохраненныеКоординаты</informationRegisters>
+  <informationRegisters>InformationRegister.ЯМ_ТегиКлиентовПоУмолчанию</informationRegisters>
 </mdclass:Configuration>

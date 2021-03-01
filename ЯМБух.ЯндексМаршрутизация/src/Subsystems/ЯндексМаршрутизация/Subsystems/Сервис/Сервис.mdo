@@ -10,5 +10,6 @@
   <content>InformationRegister.ЯМ_ЗапросыНаМаршрутизацию</content>
   <content>Document.ЯМ_ЗаявкаНаДоставку</content>
   <content>InformationRegister.ЯМ_СохраненныеКоординаты</content>
+  <content>InformationRegister.ЯМ_ТегиКлиентовПоУмолчанию</content>
   <parentSubsystem>Subsystem.ЯндексМаршрутизация</parentSubsystem>
 </mdclass:Subsystem>
