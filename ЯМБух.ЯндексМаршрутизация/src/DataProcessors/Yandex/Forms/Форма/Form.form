@@ -5486,7 +5486,7 @@
           <id>413</id>
           <title>
             <key>ru</key>
-            <value>Сервисное время на адрес</value>
+            <value>На адрес, сек</value>
           </title>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -5542,7 +5542,7 @@
           <id>410</id>
           <title>
             <key>ru</key>
-            <value>Сервисное время на заказ</value>
+            <value>На заказ, сек</value>
           </title>
           <visible>true</visible>
           <enabled>true</enabled>
