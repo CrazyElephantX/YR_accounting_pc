@@ -3717,7 +3717,6 @@
         <items xsi:type="form:Button">
           <name>ПерейтиВИнтерфейсМаршрутизации</name>
           <id>208</id>
-          <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
