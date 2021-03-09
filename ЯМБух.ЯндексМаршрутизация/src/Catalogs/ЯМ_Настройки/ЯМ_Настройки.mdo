@@ -166,7 +166,7 @@
     <name>СсылкаНаОписание</name>
     <synonym>
       <key>ru</key>
-      <value>Ссылка на описание</value>
+      <value>Описание</value>
     </synonym>
     <type>
       <types>String</types>
