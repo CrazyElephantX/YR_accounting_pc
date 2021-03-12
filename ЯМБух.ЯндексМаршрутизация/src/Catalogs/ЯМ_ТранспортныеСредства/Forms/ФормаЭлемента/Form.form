@@ -740,6 +740,63 @@
                 <textEdit>true</textEdit>
               </extInfo>
             </items>
+            <items xsi:type="form:FormField">
+              <name>КорректировкаВремениДвиженияАвтомобиля</name>
+              <id>219</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <dataPath xsi:type="form:DataPath">
+                <segments>Объект.КорректировкаВремениДвиженияАвтомобиля</segments>
+              </dataPath>
+              <toolTip>
+                <key>ru</key>
+                <value>Коэффициент корректировки времени поездки, используется для быстрых или медленных транспортных средств.
+
+Минимальное значение: 0.001.
+Значение по умолчанию: 1. При значении 1 расчет будет произведен для автомобиля с ожидаемой средней скоростью. При меньших значениях (например, 0.8), расчет будет для более быстрых автомобилей, при больших (например, 1.2) — для более медленных.</value>
+              </toolTip>
+              <extendedTooltip>
+                <name>КорректировкаВремениДвиженияАвтомобиляРасширеннаяПодсказка</name>
+                <id>221</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <type>Label</type>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <extInfo xsi:type="form:LabelDecorationExtInfo">
+                  <horizontalAlign>Left</horizontalAlign>
+                </extInfo>
+              </extendedTooltip>
+              <contextMenu>
+                <name>КорректировкаВремениДвиженияАвтомобиляКонтекстноеМеню</name>
+                <id>220</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <autoFill>true</autoFill>
+              </contextMenu>
+              <type>InputField</type>
+              <editMode>Enter</editMode>
+              <showInHeader>true</showInHeader>
+              <headerHorizontalAlign>Left</headerHorizontalAlign>
+              <showInFooter>true</showInFooter>
+              <extInfo xsi:type="form:InputFieldExtInfo">
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <wrap>true</wrap>
+                <chooseType>true</chooseType>
+                <typeDomainEnabled>true</typeDomainEnabled>
+                <textEdit>true</textEdit>
+              </extInfo>
+            </items>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1173,6 +1230,10 @@
                   <segments>Объект.СтартНеНаСкладе</segments>
                 </paths>
               </dataPath>
+              <handlers>
+                <event>OnChange</event>
+                <name>СтартНеНаСкладеПриИзменении</name>
+              </handlers>
               <extendedTooltip>
                 <name>СтартНеНаСкладеРасширеннаяПодсказка</name>
                 <id>108</id>
@@ -1524,6 +1585,10 @@
                   <segments>Объект.ЗавершениеНеНаСкладе</segments>
                 </paths>
               </dataPath>
+              <handlers>
+                <event>OnChange</event>
+                <name>ЗавершениеНеНаСкладеПриИзменении</name>
+              </handlers>
               <extendedTooltip>
                 <name>ЗавершениеНеНаСкладеРасширеннаяПодсказка</name>
                 <id>117</id>
@@ -3450,6 +3515,10 @@
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
+  <handlers>
+    <event>OnCreateAtServer</event>
+    <name>ПриСозданииНаСервере</name>
+  </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
@@ -3496,5 +3565,10 @@
     <navigationPanel/>
     <commandBar/>
   </commandInterface>
-  <extInfo xsi:type="form:CatalogFormExtInfo"/>
+  <extInfo xsi:type="form:CatalogFormExtInfo">
+    <handlers>
+      <event>BeforeWrite</event>
+      <name>ПередЗаписью</name>
+    </handlers>
+  </extInfo>
 </form:Form>

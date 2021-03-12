@@ -675,6 +675,29 @@
     </fillValue>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="a47344ea-8c7a-4dc0-ad94-b807c0bb9c92">
+    <name>КорректировкаВремениДвиженияАвтомобиля</name>
+    <synonym>
+      <key>ru</key>
+      <value>Корректировка времени движения</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:StringValue">
+      <value>0,001</value>
+    </minValue>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>1</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="fffb9299-41bc-46b8-91ef-8f75247350a2">
     <producedTypes>
       <objectType typeId="50c66120-d258-4cad-a60c-84a4ffb368d3" valueTypeId="6fb3f387-88a5-4a07-9e80-3d7a45dcfef9"/>
