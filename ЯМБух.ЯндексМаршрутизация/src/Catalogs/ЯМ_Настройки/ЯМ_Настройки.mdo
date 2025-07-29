@@ -164,7 +164,7 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="5d8ae241-5811-4e5e-bd44-db1f5fb3160c">
-    <name>СсылкаНаОписание</name>
+    <name>Комментарий</name>
     <synonym>
       <key>ru</key>
       <value>Описание</value>

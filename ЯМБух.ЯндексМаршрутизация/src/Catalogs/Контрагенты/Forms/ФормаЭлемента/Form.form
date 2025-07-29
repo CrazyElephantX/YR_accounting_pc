@@ -23,7 +23,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <fromBase>true</fromBase>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -41,7 +40,6 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <fromBase>true</fromBase>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <extInfo xsi:type="form:PictureDecorationExtInfo"/>
@@ -57,7 +55,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <fromBase>true</fromBase>
         <defaultItem>true</defaultItem>
         <titleLocation>Top</titleLocation>
         <extendedTooltip>
@@ -68,7 +65,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <fromBase>true</fromBase>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -113,7 +109,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <fromBase>true</fromBase>
         <extendedTooltip>
           <name>ЗаполнитьРеквизитыПоДаннымЕГРРасширеннаяПодсказка</name>
           <id>443</id>
@@ -122,7 +117,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <fromBase>true</fromBase>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -156,7 +150,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <fromBase>true</fromBase>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -164,7 +157,6 @@
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
       </extendedTooltip>
-      <fromBase>true</fromBase>
       <type>UsualGroup</type>
       <extInfo xsi:type="form:UsualGroupExtInfo">
         <showLeftMargin>true</showLeftMargin>
@@ -193,7 +185,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <fromBase>true</fromBase>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -201,7 +192,6 @@
         <horizontalAlign>Left</horizontalAlign>
       </extInfo>
     </extendedTooltip>
-    <fromBase>true</fromBase>
     <type>UsualGroup</type>
     <extInfo xsi:type="form:UsualGroupExtInfo">
       <showLeftMargin>true</showLeftMargin>
@@ -225,7 +215,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <fromBase>true</fromBase>
       <extendedTooltip>
         <name>ВидExtendedTooltip</name>
         <id>165</id>
@@ -234,7 +223,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <fromBase>true</fromBase>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -309,12 +297,6 @@
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible/>
-      <fromBase>true</fromBase>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Объект.Code</segments>
-        </paths>
-      </dataPath>
       <extendedTooltip>
         <name>КодExtendedTooltip</name>
         <id>163</id>
@@ -323,7 +305,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <fromBase>true</fromBase>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -376,7 +357,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <fromBase>true</fromBase>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -384,7 +364,6 @@
         <horizontalAlign>Left</horizontalAlign>
       </extInfo>
     </extendedTooltip>
-    <fromBase>true</fromBase>
     <type>UsualGroup</type>
     <extInfo xsi:type="form:UsualGroupExtInfo">
       <showLeftMargin>true</showLeftMargin>
@@ -404,12 +383,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <fromBase>true</fromBase>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Объект.Description</segments>
-        </paths>
-      </dataPath>
       <extendedTooltip>
         <name>НаименованиеExtendedTooltip</name>
         <id>162</id>
@@ -418,7 +391,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <fromBase>true</fromBase>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -458,7 +430,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <fromBase>true</fromBase>
       <extendedTooltip>
         <name>КнопкаЗаполнитьРеквизитыПоНаименованиюРасширеннаяПодсказка</name>
         <id>412</id>
@@ -467,7 +438,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <fromBase>true</fromBase>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -505,7 +475,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <fromBase>true</fromBase>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -513,7 +482,6 @@
         <horizontalAlign>Left</horizontalAlign>
       </extInfo>
     </extendedTooltip>
-    <fromBase>true</fromBase>
     <type>UsualGroup</type>
     <extInfo xsi:type="form:UsualGroupExtInfo">
       <showLeftMargin>true</showLeftMargin>
@@ -533,12 +501,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <fromBase>true</fromBase>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>1000001/0:f63845d4-f0d0-4e50-bf90-d3cf36a25616</segments>
-        </paths>
-      </dataPath>
       <extendedTooltip>
         <name>НаименованиеПолноеExtendedTooltip</name>
         <id>170</id>
@@ -547,7 +509,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <fromBase>true</fromBase>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -600,7 +561,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <fromBase>true</fromBase>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -618,7 +578,6 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <fromBase>true</fromBase>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -644,7 +603,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <fromBase>true</fromBase>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -652,7 +610,6 @@
         <horizontalAlign>Left</horizontalAlign>
       </extInfo>
     </extendedTooltip>
-    <fromBase>true</fromBase>
     <type>UsualGroup</type>
     <extInfo xsi:type="form:UsualGroupExtInfo">
       <showLeftMargin>true</showLeftMargin>
@@ -675,12 +632,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <fromBase>true</fromBase>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Объект.Parent</segments>
-          </paths>
-        </dataPath>
         <extendedTooltip>
           <name>РодительExtendedTooltip</name>
           <id>164</id>
@@ -689,7 +640,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <fromBase>true</fromBase>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -732,12 +682,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <fromBase>true</fromBase>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>1000001/0:07eb9d18-00a5-45a2-bd25-d18ab5a8e9eb</segments>
-          </paths>
-        </dataPath>
         <extendedTooltip>
           <name>СтранаРегистрацииРасширеннаяПодсказка</name>
           <id>375</id>
@@ -746,7 +690,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <fromBase>true</fromBase>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -796,12 +739,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <fromBase>true</fromBase>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>1000001/0:ce37d7dc-6210-4112-8d26-fc95aa51df5f</segments>
-          </paths>
-        </dataPath>
         <extendedTooltip>
           <name>ГоловнойКонтрагентExtendedTooltip</name>
           <id>177</id>
@@ -810,7 +747,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <fromBase>true</fromBase>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -859,12 +795,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <fromBase>true</fromBase>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>1000001/0:6269c833-842a-49c2-a0ce-cdc8b618992f</segments>
-            </paths>
-          </dataPath>
           <extendedTooltip>
             <name>ВидГосударственногоОрганаРасширеннаяПодсказка</name>
             <id>399</id>
@@ -873,7 +803,6 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <fromBase>true</fromBase>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -919,12 +848,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <fromBase>true</fromBase>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>1000001/0:1049e362-b93f-4f5b-9a9a-0f7b6f043c2b</segments>
-            </paths>
-          </dataPath>
           <extendedTooltip>
             <name>КодГосударственногоОрганаРасширеннаяПодсказка</name>
             <id>402</id>
@@ -933,7 +856,6 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <fromBase>true</fromBase>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -983,7 +905,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <fromBase>true</fromBase>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -991,7 +912,6 @@
             <horizontalAlign>Left</horizontalAlign>
           </extInfo>
         </extendedTooltip>
-        <fromBase>true</fromBase>
         <type>UsualGroup</type>
         <extInfo xsi:type="form:UsualGroupExtInfo">
           <showLeftMargin>true</showLeftMargin>
@@ -1008,12 +928,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <fromBase>true</fromBase>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>1000001/0:868488e7-1b4c-4ca4-aa98-2e54d8e0c971</segments>
-          </paths>
-        </dataPath>
         <toolTip>
           <key>ru</key>
           <value>Код налогоплательщика, присвоенный иностранной организации в стране регистрации (инкорпорации)</value>
@@ -1027,7 +941,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <fromBase>true</fromBase>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -1075,12 +988,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <fromBase>true</fromBase>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>1000001/0:69f5f923-6407-4663-8d70-cbab2926643d</segments>
-            </paths>
-          </dataPath>
           <extendedTooltip>
             <name>ИННExtendedTooltip</name>
             <id>174</id>
@@ -1089,7 +996,6 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <fromBase>true</fromBase>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -1135,7 +1041,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <fromBase>true</fromBase>
           <extendedTooltip>
             <name>КнопкаЗаполнитьРеквизитыПоИННРасширеннаяПодсказка</name>
             <id>383</id>
@@ -1144,7 +1049,6 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <fromBase>true</fromBase>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -1182,7 +1086,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <fromBase>true</fromBase>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -1190,7 +1093,6 @@
             <horizontalAlign>Left</horizontalAlign>
           </extInfo>
         </extendedTooltip>
-        <fromBase>true</fromBase>
         <type>UsualGroup</type>
         <extInfo xsi:type="form:UsualGroupExtInfo">
           <showLeftMargin>true</showLeftMargin>
@@ -1213,7 +1115,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <fromBase>true</fromBase>
         <extendedTooltip>
           <name>НадписьПоясненияНекорректногоИННРасширеннаяПодсказка</name>
           <id>349</id>
@@ -1222,7 +1123,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <fromBase>true</fromBase>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -1261,12 +1161,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <fromBase>true</fromBase>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>1000001/0:ad56943b-a827-48e6-93cb-39a6d85c172f</segments>
-            </paths>
-          </dataPath>
           <extendedTooltip>
             <name>КППExtendedTooltip</name>
             <id>179</id>
@@ -1275,7 +1169,6 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <fromBase>true</fromBase>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -1332,7 +1225,6 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <fromBase>true</fromBase>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -1350,7 +1242,6 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <fromBase>true</fromBase>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -1380,7 +1271,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <fromBase>true</fromBase>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -1388,7 +1278,6 @@
             <horizontalAlign>Left</horizontalAlign>
           </extInfo>
         </extendedTooltip>
-        <fromBase>true</fromBase>
         <type>UsualGroup</type>
         <extInfo xsi:type="form:UsualGroupExtInfo">
           <showLeftMargin>true</showLeftMargin>
@@ -1411,7 +1300,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <fromBase>true</fromBase>
         <titleLocation>Left</titleLocation>
         <extendedTooltip>
           <name>НадписьПоясненияНекорректногоКППРасширеннаяПодсказка</name>
@@ -1421,7 +1309,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <fromBase>true</fromBase>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -1468,7 +1355,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <fromBase>true</fromBase>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -1476,7 +1362,6 @@
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
       </extendedTooltip>
-      <fromBase>true</fromBase>
       <type>UsualGroup</type>
       <extInfo xsi:type="form:UsualGroupExtInfo">
         <group>Vertical</group>
@@ -1508,7 +1393,6 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <fromBase>true</fromBase>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -1526,7 +1410,6 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <fromBase>true</fromBase>
           <type>Label</type>
           <width>1</width>
           <autoMaxWidth>true</autoMaxWidth>
@@ -1546,7 +1429,6 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <fromBase>true</fromBase>
             <titleLocation>None</titleLocation>
             <extendedTooltip>
               <name>Заголовок1СПАРКРасширеннаяПодсказка</name>
@@ -1556,7 +1438,6 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
-              <fromBase>true</fromBase>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -1594,7 +1475,6 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <fromBase>true</fromBase>
             <titleLocation>None</titleLocation>
             <extendedTooltip>
               <name>КритичноеСобытие1СПАРКРасширеннаяПодсказка</name>
@@ -1604,7 +1484,6 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
-              <fromBase>true</fromBase>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -1642,7 +1521,6 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <fromBase>true</fromBase>
             <extendedTooltip>
               <name>СводныйИндикатор1СПАРКРасширеннаяПодсказка</name>
               <id>745</id>
@@ -1651,7 +1529,6 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
-              <fromBase>true</fromBase>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -1690,7 +1567,6 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <fromBase>true</fromBase>
             <extendedTooltip>
               <name>ИндексДолжнойОсмотрительности1СПАРКРасширеннаяПодсказка</name>
               <id>636</id>
@@ -1699,7 +1575,6 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
-              <fromBase>true</fromBase>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -1738,7 +1613,6 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <fromBase>true</fromBase>
             <extendedTooltip>
               <name>ИндексФинансовогоРиска1СПАРКРасширеннаяПодсказка</name>
               <id>639</id>
@@ -1747,7 +1621,6 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
-              <fromBase>true</fromBase>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -1786,7 +1659,6 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <fromBase>true</fromBase>
             <extendedTooltip>
               <name>ИндексПлатежнойДисциплины1СПАРКРасширеннаяПодсказка</name>
               <id>642</id>
@@ -1795,7 +1667,6 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
-              <fromBase>true</fromBase>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -1834,7 +1705,6 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <fromBase>true</fromBase>
             <titleLocation>None</titleLocation>
             <extendedTooltip>
               <name>Информация1СПАРКРасширеннаяПодсказка</name>
@@ -1844,7 +1714,6 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
-              <fromBase>true</fromBase>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -1883,7 +1752,6 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <fromBase>true</fromBase>
             <titleLocation>None</titleLocation>
             <extendedTooltip>
               <name>Действие1СПАРКРасширеннаяПодсказка</name>
@@ -1893,7 +1761,6 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
-              <fromBase>true</fromBase>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -1944,7 +1811,6 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <fromBase>true</fromBase>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -1952,7 +1818,6 @@
               <horizontalAlign>Left</horizontalAlign>
             </extInfo>
           </extendedTooltip>
-          <fromBase>true</fromBase>
           <type>UsualGroup</type>
           <extInfo xsi:type="form:UsualGroupExtInfo">
             <group>Vertical</group>
@@ -1984,7 +1849,6 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
-              <fromBase>true</fromBase>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -2002,7 +1866,6 @@
               </userVisible>
               <autoFill>true</autoFill>
             </contextMenu>
-            <fromBase>true</fromBase>
             <type>Label</type>
             <width>2</width>
             <autoMaxWidth>true</autoMaxWidth>
@@ -2028,7 +1891,6 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
-              <fromBase>true</fromBase>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -2046,7 +1908,6 @@
               </userVisible>
               <autoFill>true</autoFill>
             </contextMenu>
-            <fromBase>true</fromBase>
             <width>2</width>
             <autoMaxWidth>true</autoMaxWidth>
             <height>1</height>
@@ -2074,7 +1935,6 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <fromBase>true</fromBase>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -2082,7 +1942,6 @@
               <horizontalAlign>Left</horizontalAlign>
             </extInfo>
           </extendedTooltip>
-          <fromBase>true</fromBase>
           <type>UsualGroup</type>
           <extInfo xsi:type="form:UsualGroupExtInfo">
             <group>Vertical</group>
@@ -2116,7 +1975,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <fromBase>true</fromBase>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -2124,7 +1982,6 @@
             <horizontalAlign>Left</horizontalAlign>
           </extInfo>
         </extendedTooltip>
-        <fromBase>true</fromBase>
         <type>UsualGroup</type>
         <extInfo xsi:type="form:UsualGroupExtInfo">
           <showLeftMargin>true</showLeftMargin>
@@ -2150,7 +2007,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <fromBase>true</fromBase>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -2158,7 +2014,6 @@
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
       </extendedTooltip>
-      <fromBase>true</fromBase>
       <type>UsualGroup</type>
       <extInfo xsi:type="form:UsualGroupExtInfo">
         <group>Vertical</group>
@@ -2189,7 +2044,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <fromBase>true</fromBase>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -2197,7 +2051,6 @@
         <horizontalAlign>Left</horizontalAlign>
       </extInfo>
     </extendedTooltip>
-    <fromBase>true</fromBase>
     <type>UsualGroup</type>
     <extInfo xsi:type="form:UsualGroupExtInfo">
       <showLeftMargin>true</showLeftMargin>
@@ -2221,7 +2074,6 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <fromBase>true</fromBase>
     <extendedTooltip>
       <name>НадписьПояснениеПроверкиДублейФНСРасширеннаяПодсказка</name>
       <id>596</id>
@@ -2230,7 +2082,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <fromBase>true</fromBase>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -2265,12 +2116,6 @@
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible/>
-    <fromBase>true</fromBase>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>1000001/0:3ce6ad8a-0186-45dd-97b0-d12cac4c3651</segments>
-      </paths>
-    </dataPath>
     <extendedTooltip>
       <name>КодПоОКПОExtendedTooltip</name>
       <id>180</id>
@@ -2279,7 +2124,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <fromBase>true</fromBase>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -2323,12 +2167,6 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <fromBase>true</fromBase>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>1000001/0:9c9d1930-68b2-4f43-9019-8a61a52ce951</segments>
-      </paths>
-    </dataPath>
     <extendedTooltip>
       <name>РегистрационныйНомерРасширеннаяПодсказка</name>
       <id>378</id>
@@ -2337,7 +2175,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <fromBase>true</fromBase>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -2385,12 +2222,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <fromBase>true</fromBase>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>1000001/0:0f13b8bb-6bfc-49ad-96ce-f987307167eb</segments>
-        </paths>
-      </dataPath>
       <extendedTooltip>
         <name>СвидетельствоСерияНомерРасширеннаяПодсказка</name>
         <id>407</id>
@@ -2399,7 +2230,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <fromBase>true</fromBase>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -2439,12 +2269,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <fromBase>true</fromBase>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>1000001/0:ec22c3dc-8007-464f-ae20-eade4bb6d8de</segments>
-        </paths>
-      </dataPath>
       <extendedTooltip>
         <name>СвидетельствоДатаВыдачиРасширеннаяПодсказка</name>
         <id>410</id>
@@ -2453,7 +2277,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <fromBase>true</fromBase>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -2502,7 +2325,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <fromBase>true</fromBase>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -2510,7 +2332,6 @@
         <horizontalAlign>Left</horizontalAlign>
       </extInfo>
     </extendedTooltip>
-    <fromBase>true</fromBase>
     <type>UsualGroup</type>
     <extInfo xsi:type="form:UsualGroupExtInfo">
       <group>Vertical</group>
@@ -2529,12 +2350,6 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <fromBase>true</fromBase>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>1000001/0:0437cd4d-5430-47fa-8fb0-9d80a17e08ec</segments>
-      </paths>
-    </dataPath>
     <extendedTooltip>
       <name>ДокументУдостоверяющийЛичностьExtendedTooltip</name>
       <id>183</id>
@@ -2543,7 +2358,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <fromBase>true</fromBase>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -2587,12 +2401,6 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <fromBase>true</fromBase>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>1000001/0:bb5558ff-b98c-4316-ac54-dc3ecce542a8</segments>
-      </paths>
-    </dataPath>
     <titleLocation>Left</titleLocation>
     <extendedTooltip>
       <name>КомментарийExtendedTooltip</name>
@@ -2602,7 +2410,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <fromBase>true</fromBase>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -2652,7 +2459,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <fromBase>true</fromBase>
         <toolTip>
           <key>ru</key>
           <value>Введите БИК или наименование банка</value>
@@ -2665,7 +2471,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <fromBase>true</fromBase>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -2717,7 +2522,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <fromBase>true</fromBase>
         <toolTip>
           <key>ru</key>
           <value>Подсказка банка</value>
@@ -2730,7 +2534,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <fromBase>true</fromBase>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -2775,7 +2578,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <fromBase>true</fromBase>
         <extendedTooltip>
           <name>КритичноеСобытиеНадежностьБанковРасширеннаяПодсказка</name>
           <id>742</id>
@@ -2784,7 +2586,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <fromBase>true</fromBase>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -2829,7 +2630,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <fromBase>true</fromBase>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -2837,7 +2637,6 @@
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
       </extendedTooltip>
-      <fromBase>true</fromBase>
       <type>UsualGroup</type>
       <extInfo xsi:type="form:UsualGroupExtInfo">
         <group>Vertical</group>
@@ -2862,7 +2661,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <fromBase>true</fromBase>
         <extendedTooltip>
           <name>НомерСчетаExtendedTooltip</name>
           <id>585</id>
@@ -2871,7 +2669,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <fromBase>true</fromBase>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -2926,7 +2723,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <fromBase>true</fromBase>
         <toolTip>
           <key>ru</key>
           <value>Подсказка номера счета</value>
@@ -2940,7 +2736,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <fromBase>true</fromBase>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -2988,7 +2783,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <fromBase>true</fromBase>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -2996,7 +2790,6 @@
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
       </extendedTooltip>
-      <fromBase>true</fromBase>
       <type>UsualGroup</type>
       <extInfo xsi:type="form:UsualGroupExtInfo">
         <group>Vertical</group>
@@ -3013,7 +2806,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <fromBase>true</fromBase>
       <extendedTooltip>
         <name>ВалютаДенежныхСредствРасширеннаяПодсказка</name>
         <id>591</id>
@@ -3022,7 +2814,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <fromBase>true</fromBase>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -3073,7 +2864,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <fromBase>true</fromBase>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -3081,7 +2871,6 @@
         <horizontalAlign>Left</horizontalAlign>
       </extInfo>
     </extendedTooltip>
-    <fromBase>true</fromBase>
     <type>UsualGroup</type>
     <extInfo xsi:type="form:UsualGroupExtInfo">
       <group>Vertical</group>
@@ -3119,7 +2908,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <fromBase>true</fromBase>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -3137,7 +2925,6 @@
           </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
-        <fromBase>true</fromBase>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -3153,7 +2940,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <fromBase>true</fromBase>
         <extendedTooltip>
           <name>ЗагрузитьАдресныйКлассификаторРасширеннаяПодсказка</name>
           <id>272</id>
@@ -3162,7 +2948,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <fromBase>true</fromBase>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -3196,7 +2981,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <fromBase>true</fromBase>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -3204,7 +2988,6 @@
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
       </extendedTooltip>
-      <fromBase>true</fromBase>
       <type>UsualGroup</type>
       <extInfo xsi:type="form:UsualGroupExtInfo">
         <group>Vertical</group>
@@ -3237,7 +3020,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <fromBase>true</fromBase>
           <skipOnInput>false</skipOnInput>
           <extendedTooltip>
             <name>КонтактнаяИнформацияПолеЮрАдресКонтрагентаРасширеннаяПодсказка</name>
@@ -3247,7 +3029,6 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <fromBase>true</fromBase>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -3289,7 +3070,6 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <fromBase>true</fromBase>
             <extendedTooltip>
               <name>ИсторияЮрАдресаРасширеннаяПодсказка</name>
               <id>736</id>
@@ -3298,7 +3078,6 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
-              <fromBase>true</fromBase>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -3344,7 +3123,6 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <fromBase>true</fromBase>
             <titleLocation>None</titleLocation>
             <extendedTooltip>
               <name>ЮрАдресПереходНаКартуРасширеннаяПодсказка</name>
@@ -3354,7 +3132,6 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
-              <fromBase>true</fromBase>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -3402,7 +3179,6 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <fromBase>true</fromBase>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -3410,7 +3186,6 @@
               <horizontalAlign>Left</horizontalAlign>
             </extInfo>
           </extendedTooltip>
-          <fromBase>true</fromBase>
           <type>UsualGroup</type>
           <extInfo xsi:type="form:UsualGroupExtInfo">
             <group>HorizontalIfPossible</group>
@@ -3437,7 +3212,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <fromBase>true</fromBase>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -3445,7 +3219,6 @@
             <horizontalAlign>Left</horizontalAlign>
           </extInfo>
         </extendedTooltip>
-        <fromBase>true</fromBase>
         <type>UsualGroup</type>
         <extInfo xsi:type="form:UsualGroupExtInfo">
           <group>Vertical</group>
@@ -3467,7 +3240,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <fromBase>true</fromBase>
           <titleLocation>Right</titleLocation>
           <extendedTooltip>
             <name>ЮрФактАдресаСовпадаютExtendedTooltip</name>
@@ -3477,7 +3249,6 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <fromBase>true</fromBase>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -3517,7 +3288,6 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <fromBase>true</fromBase>
             <extendedTooltip>
               <name>ФактАдресКонтрагентаСовпадаетExtendedTooltip</name>
               <id>222</id>
@@ -3526,7 +3296,6 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
-              <fromBase>true</fromBase>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -3568,7 +3337,6 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <fromBase>true</fromBase>
             <extendedTooltip>
               <name>КонтактнаяИнформацияПолеФактАдресКонтрагентаРасширеннаяПодсказка</name>
               <id>220</id>
@@ -3577,7 +3345,6 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
-              <fromBase>true</fromBase>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -3620,7 +3387,6 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <fromBase>true</fromBase>
             <titleLocation>Left</titleLocation>
             <extendedTooltip>
               <name>ФактАдресПереходНаКартуРасширеннаяПодсказка</name>
@@ -3630,7 +3396,6 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
-              <fromBase>true</fromBase>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -3675,7 +3440,6 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <fromBase>true</fromBase>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -3683,7 +3447,6 @@
               <horizontalAlign>Left</horizontalAlign>
             </extInfo>
           </extendedTooltip>
-          <fromBase>true</fromBase>
           <type>UsualGroup</type>
           <extInfo xsi:type="form:UsualGroupExtInfo">
             <group>Vertical</group>
@@ -3712,7 +3475,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <fromBase>true</fromBase>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -3720,7 +3482,6 @@
             <horizontalAlign>Left</horizontalAlign>
           </extInfo>
         </extendedTooltip>
-        <fromBase>true</fromBase>
         <type>UsualGroup</type>
         <extInfo xsi:type="form:UsualGroupExtInfo">
           <group>Vertical</group>
@@ -3743,7 +3504,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <fromBase>true</fromBase>
           <titleLocation>Right</titleLocation>
           <extendedTooltip>
             <name>ЮрПочтовыйАдресаСовпадаютExtendedTooltip</name>
@@ -3753,7 +3513,6 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <fromBase>true</fromBase>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -3793,7 +3552,6 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <fromBase>true</fromBase>
             <extendedTooltip>
               <name>ПочтовыйАдресКонтрагентаСовпадаетExtendedTooltip</name>
               <id>232</id>
@@ -3802,7 +3560,6 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
-              <fromBase>true</fromBase>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -3840,7 +3597,6 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <fromBase>true</fromBase>
             <extendedTooltip>
               <name>КонтактнаяИнформацияПолеПочтовыйАдресКонтрагентаРасширеннаяПодсказка</name>
               <id>230</id>
@@ -3849,7 +3605,6 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
-              <fromBase>true</fromBase>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -3897,7 +3652,6 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <fromBase>true</fromBase>
             <titleLocation>Left</titleLocation>
             <extendedTooltip>
               <name>ПочтовыйАдресПереходНаКартуРасширеннаяПодсказка</name>
@@ -3907,7 +3661,6 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
-              <fromBase>true</fromBase>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -3952,7 +3705,6 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <fromBase>true</fromBase>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -3960,7 +3712,6 @@
               <horizontalAlign>Left</horizontalAlign>
             </extInfo>
           </extendedTooltip>
-          <fromBase>true</fromBase>
           <type>UsualGroup</type>
           <extInfo xsi:type="form:UsualGroupExtInfo">
             <group>Vertical</group>
@@ -3989,7 +3740,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <fromBase>true</fromBase>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -3997,7 +3747,6 @@
             <horizontalAlign>Left</horizontalAlign>
           </extInfo>
         </extendedTooltip>
-        <fromBase>true</fromBase>
         <type>UsualGroup</type>
         <extInfo xsi:type="form:UsualGroupExtInfo">
           <group>Vertical</group>
@@ -4026,7 +3775,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <fromBase>true</fromBase>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -4034,7 +3782,6 @@
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
       </extendedTooltip>
-      <fromBase>true</fromBase>
       <type>UsualGroup</type>
       <extInfo xsi:type="form:UsualGroupExtInfo">
         <group>Vertical</group>
@@ -4058,7 +3805,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <fromBase>true</fromBase>
           <extendedTooltip>
             <name>КонтактнаяИнформацияПолеТелефонКонтрагентаРасширеннаяПодсказка</name>
             <id>237</id>
@@ -4067,7 +3813,6 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <fromBase>true</fromBase>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -4110,7 +3855,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <fromBase>true</fromBase>
           <extendedTooltip>
             <name>КомандаКонтактнаяИнформацияПолеТелефонКонтрагентаРасширеннаяПодсказка</name>
             <id>528</id>
@@ -4119,7 +3863,6 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <fromBase>true</fromBase>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -4153,7 +3896,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <fromBase>true</fromBase>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -4161,7 +3903,6 @@
             <horizontalAlign>Left</horizontalAlign>
           </extInfo>
         </extendedTooltip>
-        <fromBase>true</fromBase>
         <type>UsualGroup</type>
         <extInfo xsi:type="form:UsualGroupExtInfo">
           <showLeftMargin>true</showLeftMargin>
@@ -4179,7 +3920,6 @@
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible/>
-          <fromBase>true</fromBase>
           <extendedTooltip>
             <name>КонтактнаяИнформацияПолеФаксКонтрагентыРасширеннаяПодсказка</name>
             <id>238</id>
@@ -4188,7 +3928,6 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <fromBase>true</fromBase>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -4240,7 +3979,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <fromBase>true</fromBase>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -4248,7 +3986,6 @@
             <horizontalAlign>Left</horizontalAlign>
           </extInfo>
         </extendedTooltip>
-        <fromBase>true</fromBase>
         <type>UsualGroup</type>
         <extInfo xsi:type="form:UsualGroupExtInfo">
           <showLeftMargin>true</showLeftMargin>
@@ -4268,7 +4005,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <fromBase>true</fromBase>
           <extendedTooltip>
             <name>КонтактнаяИнформацияПолеEmailКонтрагентыРасширеннаяПодсказка</name>
             <id>239</id>
@@ -4277,7 +4013,6 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <fromBase>true</fromBase>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -4319,7 +4054,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <fromBase>true</fromBase>
           <extendedTooltip>
             <name>КомандаКонтактнаяИнформацияПолеEmailКонтрагентыРасширеннаяПодсказка</name>
             <id>487</id>
@@ -4328,7 +4062,6 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <fromBase>true</fromBase>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -4366,7 +4099,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <fromBase>true</fromBase>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -4374,7 +4106,6 @@
             <horizontalAlign>Left</horizontalAlign>
           </extInfo>
         </extendedTooltip>
-        <fromBase>true</fromBase>
         <type>UsualGroup</type>
         <extInfo xsi:type="form:UsualGroupExtInfo">
           <showLeftMargin>true</showLeftMargin>
@@ -4392,7 +4123,6 @@
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible/>
-          <fromBase>true</fromBase>
           <titleLocation>Left</titleLocation>
           <extendedTooltip>
             <name>КонтактнаяИнформацияПолеДругаяИнформацияКонтрагентыРасширеннаяПодсказка</name>
@@ -4402,7 +4132,6 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <fromBase>true</fromBase>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -4452,7 +4181,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <fromBase>true</fromBase>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -4460,7 +4188,6 @@
             <horizontalAlign>Left</horizontalAlign>
           </extInfo>
         </extendedTooltip>
-        <fromBase>true</fromBase>
         <type>UsualGroup</type>
         <extInfo xsi:type="form:UsualGroupExtInfo">
           <showLeftMargin>true</showLeftMargin>
@@ -4486,7 +4213,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <fromBase>true</fromBase>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -4494,7 +4220,6 @@
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
       </extendedTooltip>
-      <fromBase>true</fromBase>
       <type>UsualGroup</type>
       <extInfo xsi:type="form:UsualGroupExtInfo">
         <group>Vertical</group>
@@ -4522,7 +4247,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <fromBase>true</fromBase>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -4530,7 +4254,6 @@
         <horizontalAlign>Left</horizontalAlign>
       </extInfo>
     </extendedTooltip>
-    <fromBase>true</fromBase>
     <type>UsualGroup</type>
     <extInfo xsi:type="form:UsualGroupExtInfo">
       <group>Vertical</group>
@@ -4563,7 +4286,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <fromBase>true</fromBase>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -4571,7 +4293,6 @@
         <horizontalAlign>Left</horizontalAlign>
       </extInfo>
     </extendedTooltip>
-    <fromBase>true</fromBase>
     <type>UsualGroup</type>
     <extInfo xsi:type="form:UsualGroupExtInfo">
       <group>Vertical</group>
@@ -4595,12 +4316,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <fromBase>true</fromBase>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>1000001/0:9dad7a54-b298-4584-aa23-38b44ea31036</segments>
-        </paths>
-      </dataPath>
       <titleLocation>None</titleLocation>
       <extendedTooltip>
         <name>ДополнительнаяИнформацияExtendedTooltip</name>
@@ -4610,7 +4325,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <fromBase>true</fromBase>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -4663,7 +4377,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <fromBase>true</fromBase>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -4671,7 +4384,6 @@
         <horizontalAlign>Left</horizontalAlign>
       </extInfo>
     </extendedTooltip>
-    <fromBase>true</fromBase>
     <type>UsualGroup</type>
     <extInfo xsi:type="form:UsualGroupExtInfo">
       <group>Vertical</group>
@@ -4695,7 +4407,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <fromBase>false</fromBase>
       <dataPath xsi:type="form:MultiLanguageDataPath">
         <paths xsi:type="form:DataPath">
           <segments>1000001/0:9dad7a54-b298-4584-aa23-38b44ea31036</segments>
@@ -4710,7 +4421,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <fromBase>false</fromBase>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -4750,7 +4460,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <fromBase>false</fromBase>
       <dataPath xsi:type="form:MultiLanguageDataPath">
         <paths xsi:type="form:DataPath">
           <segments>Объект.ЯМ_РежимРаботы</segments>
@@ -4764,7 +4473,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <fromBase>false</fromBase>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -4817,7 +4525,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <fromBase>false</fromBase>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -4825,7 +4532,6 @@
         <horizontalAlign>Left</horizontalAlign>
       </extInfo>
     </extendedTooltip>
-    <fromBase>false</fromBase>
     <type>UsualGroup</type>
     <extInfo xsi:type="form:UsualGroupExtInfo">
       <group>Vertical</group>
@@ -4849,7 +4555,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <fromBase>true</fromBase>
       <extendedTooltip>
         <name>ФормаКомандаЗаписатьИЗакрытьРасширеннаяПодсказка</name>
         <id>366</id>
@@ -4858,7 +4563,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <fromBase>true</fromBase>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -4881,7 +4585,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <fromBase>true</fromBase>
       <extendedTooltip>
         <name>ФормаЗаписатьРасширеннаяПодсказка</name>
         <id>392</id>
@@ -4890,7 +4593,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <fromBase>true</fromBase>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -4919,7 +4621,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <fromBase>true</fromBase>
           <extendedTooltip>
             <name>ФормаЗаполнитьИзЭлектроннойПочтыРасширеннаяПодсказка</name>
             <id>421</id>
@@ -4928,7 +4629,6 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <fromBase>true</fromBase>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -4951,7 +4651,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <fromBase>true</fromBase>
           <extendedTooltip>
             <name>ФормаЗаполнитьИзФайлаРасширеннаяПодсказка</name>
             <id>423</id>
@@ -4960,7 +4659,6 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <fromBase>true</fromBase>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -4996,7 +4694,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <fromBase>true</fromBase>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -5004,7 +4701,6 @@
             <horizontalAlign>Left</horizontalAlign>
           </extInfo>
         </extendedTooltip>
-        <fromBase>true</fromBase>
         <type>Popup</type>
         <extInfo xsi:type="form:PopupGroupExtInfo">
           <representation>Auto</representation>
@@ -5034,7 +4730,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <fromBase>true</fromBase>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -5042,7 +4737,6 @@
             <horizontalAlign>Left</horizontalAlign>
           </extInfo>
         </extendedTooltip>
-        <fromBase>true</fromBase>
         <extInfo xsi:type="form:ButtonGroupExtInfo">
           <commandSource>FormCommandPanelGlobalCommands</commandSource>
         </extInfo>
@@ -5055,7 +4749,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <fromBase>true</fromBase>
         <extendedTooltip>
           <name>ФормаПоказатьКонтекстныеНовостиРасширеннаяПодсказка</name>
           <id>526</id>
@@ -5064,7 +4757,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <fromBase>true</fromBase>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -5104,7 +4796,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <fromBase>true</fromBase>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -5112,7 +4803,6 @@
             <horizontalAlign>Left</horizontalAlign>
           </extInfo>
         </extendedTooltip>
-        <fromBase>true</fromBase>
         <type>Popup</type>
         <extInfo xsi:type="form:PopupGroupExtInfo">
           <representation>Auto</representation>
@@ -5139,7 +4829,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <fromBase>true</fromBase>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -5147,7 +4836,6 @@
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
       </extendedTooltip>
-      <fromBase>true</fromBase>
       <extInfo xsi:type="form:ButtonGroupExtInfo">
         <commandSource>Form</commandSource>
       </extInfo>
@@ -5160,7 +4848,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <fromBase>true</fromBase>
       <extendedTooltip>
         <name>ПроверитьКонтрагентаРасширеннаяПодсказка</name>
         <id>593</id>
@@ -5169,7 +4856,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <fromBase>true</fromBase>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -5193,7 +4879,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <fromBase>true</fromBase>
       <extendedTooltip>
         <name>ФормаСправкаРасширеннаяПодсказка</name>
         <id>370</id>
@@ -5202,7 +4887,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <fromBase>true</fromBase>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>

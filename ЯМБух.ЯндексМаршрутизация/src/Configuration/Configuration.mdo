@@ -28,10 +28,9 @@
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>Профи Центр ООО</vendor>
-  <version>1.1.6.12</version>
+  <version>1.2.0.0</version>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
-  <compatibilityMode>8.3.18</compatibilityMode>
   <languages uuid="244c95ce-bba3-4ec4-9b30-b7a44bf1c5ee">
     <name>Русский</name>
     <objectBelonging>Adopted</objectBelonging>

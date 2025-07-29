@@ -307,6 +307,21 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="df5e5ac5-1b57-4b73-89d7-6b337819f2e6">
+    <name>МаршрутПоРеализациям</name>
+    <synonym>
+      <key>ru</key>
+      <value>Маршрут по реализациям</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="531a935c-244e-4dda-be06-f9bbb3b7068e">
     <name>ФормаДокумента</name>
     <synonym>
@@ -316,4 +331,29 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <tabularSections uuid="132a4453-4ddf-4ed8-a38c-deb99e6c025b">
+    <producedTypes>
+      <objectType typeId="39632d91-5fa1-47a9-a70f-17bd6f741973" valueTypeId="5aa17be1-7d51-448c-aeb2-e40cb5a785e6"/>
+      <rowType typeId="22af9860-a7ac-428e-9991-59a62f17f175" valueTypeId="871fde81-2912-4eda-b2f9-e1301b8dc3d7"/>
+    </producedTypes>
+    <name>РеализацииДляОтгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реализации для отгрузки</value>
+    </synonym>
+    <attributes uuid="b0811e5b-07da-4ec9-946d-ae67881e9822">
+      <name>ДокументРеализация</name>
+      <synonym>
+        <key>ru</key>
+        <value>Документ реализация</value>
+      </synonym>
+      <type>
+        <types>DocumentRef.РеализацияТоваровУслуг</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
 </mdclass:Document>
