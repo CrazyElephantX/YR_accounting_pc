@@ -39,14 +39,12 @@
       <type>
         <types>String</types>
         <stringQualifiers>
-          <length>11</length>
+          <length>13</length>
         </stringQualifiers>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
-      <fillValue xsi:type="core:StringValue">
-        <value></value>
-      </fillValue>
+      <fillValue xsi:type="core:UndefinedValue"/>
     </attributes>
     <attributes uuid="25be72da-7108-4454-b0b2-f185da78cc2d">
       <name>Широта</name>
